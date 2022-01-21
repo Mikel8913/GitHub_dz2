@@ -1,0 +1,11 @@
+1) ID
+2) Summary
+3) Description
+4) Steps to reproduce
+5) Actual result
+6) Expected result
+7) Attachments
+8) Severity
+9) Priority
+10) Status
+11) Environment
