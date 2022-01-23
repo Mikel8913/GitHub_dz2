@@ -1,0 +1,172 @@
+{
+	"id": "22e15140-2cfb-4a37-9805-c1c9fac23c14",
+	"name": "DZ1",
+	"timestamp": "2022-01-22T14:56:25.366Z",
+	"collection_id": "0-093d61e7-7494-4b09-9317-36a04a115029",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "cbf7bc42-6f9c-47bd-99a2-ce65584e9c9b",
+			"name": "hw1",
+			"url": "http://162.55.220.72:5005 /get_method?name=mike&age=32",
+			"time": 73,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				73
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "dc67b1c1-baad-4b3c-b591-0ea8b9e02d3a",
+			"name": "hw2",
+			"url": "http://162.55.220.72:5005/user_info_3",
+			"time": 80,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				80
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d53b6e83-51cc-4c86-8301-c5ebae9eefe5",
+			"name": "hw3",
+			"url": "http://162.55.220.72:5005/object_info_1?name=mike&age=32&weight=74",
+			"time": 87,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				87
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "fab40b1a-2d01-42d5-9e4a-4ad67313c3a9",
+			"name": "hw4",
+			"url": "http://162.55.220.72:5005/object_info_2?name=mike&age=32&salary=300",
+			"time": 83,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				83
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "36570419-48c9-4492-9c1c-7b4c40cd5d3b",
+			"name": "hw5",
+			"url": "http://162.55.220.72:5005/object_info_3?name%20=mike&age=32&salary=500",
+			"time": 70,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				70
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b23f5f73-6fe4-4bbe-93a8-532b5e5fbc4e",
+			"name": "hw6",
+			"url": "http://162.55.220.72:5005/object_info_4?name=mike&age=32&salary=400",
+			"time": 77,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				77
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "59d80bf2-f66a-4399-982c-5383a48debe4",
+			"name": "hw7",
+			"url": "http://162.55.220.72:5005/user_info_2",
+			"time": 81,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				81
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 551,
+	"collection": {
+		"requests": [
+			{
+				"id": "cbf7bc42-6f9c-47bd-99a2-ce65584e9c9b",
+				"method": "GET"
+			},
+			{
+				"id": "dc67b1c1-baad-4b3c-b591-0ea8b9e02d3a",
+				"method": "POST"
+			},
+			{
+				"id": "d53b6e83-51cc-4c86-8301-c5ebae9eefe5",
+				"method": "GET"
+			},
+			{
+				"id": "fab40b1a-2d01-42d5-9e4a-4ad67313c3a9",
+				"method": "GET"
+			},
+			{
+				"id": "36570419-48c9-4492-9c1c-7b4c40cd5d3b",
+				"method": "GET"
+			},
+			{
+				"id": "b23f5f73-6fe4-4bbe-93a8-532b5e5fbc4e",
+				"method": "GET"
+			},
+			{
+				"id": "59d80bf2-f66a-4399-982c-5383a48debe4",
+				"method": "POST"
+			}
+		]
+	}
+}
